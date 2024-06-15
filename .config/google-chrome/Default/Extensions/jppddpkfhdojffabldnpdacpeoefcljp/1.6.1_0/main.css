@@ -1,0 +1,30 @@
+body, webview {
+	padding: 0;
+	margin: 0;
+	height: 100vh;
+	width: 100vw;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    text-align: center;
+    color: gray;
+}
+
+.subtitle {
+    color: gray;
+}
+
+footer.Footer {
+  display: none;
+}

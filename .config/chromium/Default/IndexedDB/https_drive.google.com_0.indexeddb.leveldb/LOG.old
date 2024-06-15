@@ -1,0 +1,21 @@
+2024/06/13-17:02:53.021 41f2 Creating DB /home/noge/.config/chromium/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb since it was missing.
+2024/06/13-17:02:53.043 41f2 Reusing MANIFEST /home/noge/.config/chromium/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/06/13-17:02:57.413 41f3 Level-0 table #5: started
+2024/06/13-17:02:57.453 41f3 Level-0 table #5: 1273574 bytes OK
+2024/06/13-17:02:57.466 41f3 Delete type=0 #3
+2024/06/13-17:02:57.499 41f3 Level-0 table #7: started
+2024/06/13-17:02:57.533 41f3 Level-0 table #7: 1446477 bytes OK
+2024/06/13-17:02:57.543 41f3 Delete type=0 #4
+2024/06/13-17:02:57.666 41f3 Level-0 table #9: started
+2024/06/13-17:02:57.715 41f3 Level-0 table #9: 810583 bytes OK
+2024/06/13-17:02:57.727 41f3 Delete type=0 #6
+2024/06/13-17:03:01.194 41f2 Compacting 1@0 + 1@1 files
+2024/06/13-17:03:01.252 41f2 Generated table #10@0: 13824 keys, 2146924 bytes
+2024/06/13-17:03:01.262 41f2 Generated table #11@0: 1758 keys, 75127 bytes
+2024/06/13-17:03:01.262 41f2 Compacted 1@0 + 1@1 files => 2222051 bytes
+2024/06/13-17:03:01.270 41f2 compacted to: files[ 0 2 1 0 0 0 0 ]
+2024/06/13-17:03:01.271 41f2 Delete type=2 #7
+2024/06/13-17:03:01.271 41f2 Delete type=2 #9
+2024/06/13-17:03:11.810 41f3 Level-0 table #13: started
+2024/06/13-17:03:11.843 41f3 Level-0 table #13: 1562030 bytes OK
+2024/06/13-17:03:11.853 41f3 Delete type=0 #8

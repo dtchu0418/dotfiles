@@ -1,0 +1,70 @@
+[
+    {
+        "id": 1,
+        "priority": 1,
+        "action": {
+            "type": "modifyHeaders",
+            "requestHeaders": [
+				{"header": "Referer", "operation": "set", "value": "https://www.viu.com/"},
+				{"header": "Origin", "operation": "set", "value": "https://www.viu.com"}
+            ],
+			"responseHeaders": [
+                {"header": "access-control-allow-origin", "operation": "set", "value": "*"}
+            ]
+        },
+        "condition" : {
+			"regexFilter": "(^(.*?)_Layer(.*?)$|^(.*?)odcp124(.*?)$|^(.*?)d2anahhhmp1ffz(.*?)$|^(.*?)vuclip-(.*?)$|^(.*?)rm/getke(.*?)$)",
+			"resourceTypes": ["xmlhttprequest"]
+         }
+    },
+    {
+        "id": 2,
+        "priority": 1,
+        "action": {
+            "type": "modifyHeaders",
+            "requestHeaders": [
+				{"header": "Referer", "operation": "set", "value": "https://www.viki.com/"},
+				{"header": "Origin", "operation": "set", "value": "https://www.viki.com"}
+            ],
+			"responseHeaders": [
+                {"header": "access-control-allow-origin", "operation": "set", "value": "*"}
+            ]
+        },
+        "condition" : {
+			"regexFilter": "(^(.*?)ik(.*?)/dash/(.*?)$|^(.*?)fest-vik(.*?)$)",
+			"resourceTypes": ["xmlhttprequest"]
+        }
+    },
+    {
+        "id": 3,
+        "priority": 1,
+        "action": {
+            "type": "modifyHeaders",
+            "requestHeaders": [
+				{"header": "Referer", "operation": "set", "value": "https://www.gagaoolala.com/"},
+				{"header": "Origin", "operation": "set", "value": "https://www.gagaoolala.com"}
+            ],
+			"responseHeaders": [
+                {"header": "access-control-allow-origin", "operation": "set", "value": "*"}
+            ]
+        },
+        "condition" : {
+			"regexFilter": "(^(.*?)gol-ns-vi(.*?)$|^(.*?)lala.com/medi(.*?)$|^(.*?)lala.com/vide(.*?)$|^(.*?)d3aruuqyqxswkd(.*?)$)",
+			"resourceTypes": ["xmlhttprequest"]
+        }
+    },
+    {
+        "id": 4,
+        "priority": 1,
+        "action": {
+            "type": "modifyHeaders",
+            "requestHeaders": [
+				{"header": "X-Gp-Chrome-Ext", "operation": "set", "value": "0.91"}
+            ]
+        },
+        "condition" : {
+			"regexFilter": "(^(.*?)goplay.(.*?)$|^(.*?).anontpp.com(.*?)$|^(.*?).armsasuncion.com(.*?)$)",
+			"resourceTypes": ["main_frame", "xmlhttprequest"]
+        }
+    }
+]

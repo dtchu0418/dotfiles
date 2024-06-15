@@ -1,0 +1,3 @@
+2024-06-13 14:37:14.738 [info] Started initializing default profile extensions in extensions installation folder. file:///home/noge/.vscode/extensions
+2024-06-13 14:37:14.952 [warning] Failed to create default profile extensions manifest in extensions installation folder. file:///home/noge/.vscode/extensions Unable to create file 'vscode-userdata:/home/noge/.vscode/extensions/extensions.json' that already exists when overwrite flag is not set
+2024-06-13 14:37:14.953 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/noge/.vscode/extensions

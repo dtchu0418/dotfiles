@@ -1,0 +1,32 @@
+{
+   "action": {
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "content_scripts": [ {
+      "js": [ "js/FunCaptcha.js", "js/jquery.js", "contentscript.js" ],
+      "matches": [ "\u003Call_urls>" ]
+   } ],
+   "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self'",
+      "sandbox": "sandbox allow-scripts; script-src 'self' 'https://funcaptcha.com/'; object-src 'self'"
+   },
+   "description": "Roblox alt manager",
+   "host_permissions": [ "https://*.roblox.com/games/", "https://*.roblox.com/", "https://roblox.com/" ],
+   "icons": {
+      "128": "images/icon128.png",
+      "16": "images/icon16.png",
+      "48": "images/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAn1coPKTm01Dlec2DVWlEm7JMVqWGp80rFmYTBfaCxAeliOgUy5qKeGMdR0yQtEBkOqC6Z3szY3XNnaYTIiryZUcrAb125NMEJCUQlMKz9E0433uBk/Pvu3ECaMfU/GKNXIDbb8msCo3J2gnpIWbqbPLBD/+hcfvMTjGk8IwdeqfYdB0ixdXF/H+jGeoJsKpX3Yl/xDnrbGypKoeIf7TBASB2CeYwhKOL/7v9Pu5ekKkNAuLZ/WRZ+3UUUZVIDeCMjgdh1YL2JClh1QL/B3DPjEuO4p1JgOKrp0pRZVr8GUA+qj0NGlRZzR9Bypi8uv4Pi3vtDC0CeKgkOW+NZfk/yQIDAQAB",
+   "manifest_version": 3,
+   "name": "AltBlox",
+   "permissions": [ "scripting", "cookies", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.47",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "images/*.png", "css/*.css", "js/*.js", "styles.css", "content.js", "load.js", "panel.html", "script.js" ]
+   } ]
+}

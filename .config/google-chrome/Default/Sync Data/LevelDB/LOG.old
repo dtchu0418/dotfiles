@@ -1,0 +1,6 @@
+2024/05/31-17:36:25.498 1b11 Reusing MANIFEST /home/noge/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
+2024/05/31-17:36:25.499 1b11 Recovering log #147
+2024/05/31-17:36:25.499 1b11 Reusing old log /home/noge/.config/google-chrome/Default/Sync Data/LevelDB/000147.log 
+2024/05/31-17:39:23.692 1b15 Level-0 table #151: started
+2024/05/31-17:39:23.711 1b15 Level-0 table #151: 127081 bytes OK
+2024/05/31-17:39:23.720 1b15 Delete type=0 #147

@@ -1,0 +1,20 @@
+{
+   "action": {
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "description": "Qudelix-5K Bluetooth DAC AMP Remote Controller",
+   "differential_fingerprint": "1.98e8ac419d4d003f823be6bbf5582fdef71ddd84c04b0b459759339160c37917",
+   "icons": {
+      "128": "./logo/qudelix_logo_128-circle.png",
+      "16": "./logo/qudelix_logo_16-circle.png",
+      "48": "./logo/qudelix_logo_48-circle.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA07yct9iIXCwb6ZqBXMYxD4kdcyBbdZ+eAj8tVWejnkrXcr1/PwTv4k9FJe0reB5h42AYPkv6mQwmhVHqDCoeXCQJxM8z2Ei22LiIp/TIpzrhoYv2iGktTOKRMZgsnimLuuv1fgErJm7y3Rt60lngRCg9daFfMTXnsCcIJShLsl16k2NijfrdpRF7Qnr257Xk2tj1Lv7Q9WkV0N9C/NlvEZ8F4hTSrmvh5IFZfV6rC2kK/wJZZmRAHYkyPWlHl9mhLr+SVLyr8hgILyrxk/i0Kb95YgyyJE7/Qrl9XO6oviHj6h2FeHK08xJkOa7uEFvaj1NMvPw88Jplk2EpOlXVswIDAQAB",
+   "manifest_version": 3,
+   "name": "Qudelix",
+   "permissions": [ "tabs" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.0.4.2"
+}
