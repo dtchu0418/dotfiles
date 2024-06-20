@@ -1,0 +1,29 @@
+{
+   "appDesc": {
+      "message": "Ulah nyia-nyia keun waktos nurut kana aturan. FastForward bakal otomatis ngalangkungan alamat nu matak ngagganggu. "
+   },
+   "changelog": {
+      "message": "Catetan parobahan"
+   },
+   "definitionsVersion": {
+      "message": "Pangertian Bypass"
+   },
+   "firstrunNoScript": {
+      "message": "Nanging, anjeun sigana nganggo ekstensi NoScript atawa nu sajabana, nyebabkeun FastForward teu jalan."
+   },
+   "firstrunTitle": {
+      "message": "Hatur nuhun parantos masang FastForward!"
+   },
+   "update": {
+      "message": "Marios pambaharuan"
+   },
+   "updateYes": {
+      "message": "Rengse ngunduh definisi bypass."
+   },
+   "updating": {
+      "message": "Ngunduh definisi bypass..."
+   },
+   "version": {
+      "message": "Vérsi"
+   }
+}

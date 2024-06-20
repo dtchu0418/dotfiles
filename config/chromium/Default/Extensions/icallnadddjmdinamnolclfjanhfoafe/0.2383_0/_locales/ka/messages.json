@@ -1,0 +1,134 @@
+{
+   "appDesc": {
+      "message": "ნუ დაკარგავთ დროს. FastForward გამოტოვებს მომაბეზრებელ ბმულის შემამოკლებლებს."
+   },
+   "beforeNavigate": {
+      "message": "თითქმით მისული ხარტ თქვენ ვებსაიტზე"
+   },
+   "beforeNavigateDestination": {
+      "message": "დანიშნულების მისამართი %"
+   },
+   "beforeNavigateInstant": {
+      "message": "FastForward-ერი ეხლა წაგიყვანთ %"
+   },
+   "beforeNavigateOptions": {
+      "message": "გსურთ გადამისამართება მომენტალურად ან x წამში?"
+   },
+   "beforeNavigateTimer": {
+      "message": "თქვენ გადამისამართდებით ავტომატურად % წამში"
+   },
+   "beforeNavigateTimerSingular": {
+      "message": "თქვენ გადამისამართდებით ავტომატურად 1 წამში"
+   },
+   "beforeNavigateUnsafe": {
+      "message": "თუ ეხლა გადახვალთ საიტზე ისინი დააფიქსირებენ FastForward."
+   },
+   "beforeNavigateUnsafeTimer": {
+      "message": "თქვენ არ იქნებით დაფიქსირებული % წამში"
+   },
+   "beforeNavigateUnsafeTimerSingular": {
+      "message": "თქვენ არ იქნებით დაფიქსირებული 1 წამში"
+   },
+   "blockedSubtitle": {
+      "message": "არ გინდათ FastForwarder-მა რო დაგიცვას ცუდი ადამიანებისგან თქვენი მდებარეობა რო არ გაიგონ?"
+   },
+   "blockedTitle": {
+      "message": "FastForward-მა დაგიცვათ თქვენი IP-ს დამახსოვრებისგან.\n"
+   },
+   "bypassCounter": {
+      "message": "FastForward-მა გამოტოვა % გვერდი თქვენთვის."
+   },
+   "cancel": {
+      "message": "გაუქმება"
+   },
+   "changelog": {
+      "message": "ცვლილებელის ისტორია"
+   },
+   "contributors": {
+      "message": "წვლილის შემტანები"
+   },
+   "crowdBypassed": {
+      "message": "თქვენ არ გჭირდებათ ლოდინი"
+   },
+   "crowdBypassedIgnore": {
+      "message": "ეს არასწორია?"
+   },
+   "crowdBypassedInfo": {
+      "message": "FastForward-ის სხვა მომხმარებლები დაელოდნენ თქვენს მაგივრად და შეგვატყობინეს რომ ეს მისამართი გადამისამართდება % -ზე."
+   },
+   "crowdBypassedOptions": {
+      "message": "გსურთ გახსნა მომენტალურად ან x წამში?"
+   },
+   "crowdBypassedTimer": {
+      "message": "და ის გაიხსნება % წამში."
+   },
+   "crowdBypassedTimerSingular": {
+      "message": "და ის გაიხსნება 1 წამში."
+   },
+   "crowdCloseTimer": {
+      "message": "ეს ჩანართი დაიხურება % წამში."
+   },
+   "crowdCloseTimerSingular": {
+      "message": "ეს ჩანართი დაიხურება 1 წამში."
+   },
+   "crowdWait": {
+      "message": "სამწუხაროდ, თქვენ ხართ პირველი მომხმარებელი, ვინც გახსნა ეს ბმული. სხვა მომხმარებლებს თქვენს შემდეგ აღარ მოუწევთ ლოდინი."
+   },
+   "definitionsVersion": {
+      "message": "გამოტოვების წესები"
+   },
+   "faq": {
+      "message": "ხშირად დასმული კითხვები"
+   },
+   "firstrunNoScript": {
+      "message": "შესაძლოა თქვენ იყენებთ NoScript ან სხვა მასგავს გაფართოებას, რომელიც არ არის თავსებადი FastForward-თან"
+   },
+   "firstrunTitle": {
+      "message": "მადლობა FastForward დაყენებისთვის!"
+   },
+   "infoFileHoster": {
+      "message": "სამწუხაროდ, გადმოწერის სერვერი ამოწმებს დაელოდეთ თუ არა შესაბამისი დრო ფაილის გადმოსაწერად."
+   },
+   "infoOutdated": {
+      "message": "ამ ვებსაიტის შემოვლა შესაძლებელია მხოლოდ FastForward-ის ახალი ვერსიით"
+   },
+   "options": {
+      "message": "პარამეტრები"
+   },
+   "optionsBlockIPLoggers": {
+      "message": "დაბლოკე იპ ლოგერები თუ  შემოვლა არ მუშაობს"
+   },
+   "optionsEnabled": {
+      "message": "ok"
+   },
+   "optionsLink": {
+      "message": "შეცვალეთ პარამეტრები."
+   },
+   "optionsNavigationDelay": {
+      "message": "ავტომატური გადასვლა % წამში"
+   },
+   "optionsUserscripts": {
+      "message": "არაოფიციალური შემოსავლები"
+   },
+   "privacyPolicy": {
+      "message": "კონფიდენციალურობის პოლიტიკა"
+   },
+   "support": {
+      "message": "შეიტანეთ თქვენი წვლილი."
+   },
+   "update": {
+      "message": "განახლების შემოწმება"
+   },
+   "updateNo": {
+      "message": "გამოტოვების წესები განახლებულია."
+   },
+   "updateYes": {
+      "message": "გამოტოვების წესები წარმატებით ჩამოიტვირთა."
+   },
+   "updating": {
+      "message": "გამოტოვების წესები ითვირთება..."
+   },
+   "version": {
+      "message": "ვერსია"
+   }
+}

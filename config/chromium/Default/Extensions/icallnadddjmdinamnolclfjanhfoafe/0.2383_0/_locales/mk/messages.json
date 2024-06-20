@@ -1,0 +1,155 @@
+{
+   "appDesc": {
+      "message": "Не си го трошете времето со согласување. FastForward ги прескокнува веб скратувачите."
+   },
+   "beforeNavigate": {
+      "message": "Уште малку си до твојата дестинација"
+   },
+   "beforeNavigateDestination": {
+      "message": "Твојата дестинација е %"
+   },
+   "beforeNavigateInstant": {
+      "message": "Ти ќе бидеш префрлен на %"
+   },
+   "beforeNavigateOptions": {
+      "message": "Дали сакаш веднаш да бидеш префрлен или за x секунди?"
+   },
+   "beforeNavigateTimer": {
+      "message": "Автоматски ќе бидеш префрлен на дестинацијата за % секунди."
+   },
+   "beforeNavigateTimerSingular": {
+      "message": "Автоматски ќе бидеш префрлен за 1 секунда"
+   },
+   "beforeNavigateUnsafe": {
+      "message": "Но, ако сакаш да одиш сега, тие ќе го заприметат FastForward."
+   },
+   "beforeNavigateUnsafeTimer": {
+      "message": "Нема да го заприметат за % секунди"
+   },
+   "beforeNavigateUnsafeTimerSingular": {
+      "message": "Нема да биде заприметен за 1 секунда"
+   },
+   "blockedSubtitle": {
+      "message": "Не сакаш Универзален Бајпас да ја крие вашата IP адреса од лоши луѓе?"
+   },
+   "blockedTitle": {
+      "message": "Универзален Бајпас ја крие вашата IP Адреса"
+   },
+   "bypassCounter": {
+      "message": "FastForward веќе има заобиколено % страни за тебе"
+   },
+   "cancel": {
+      "message": "Откажи."
+   },
+   "changelog": {
+      "message": "Историја на промени"
+   },
+   "contributors": {
+      "message": "Луѓе кои помогнале"
+   },
+   "crowdBypassed": {
+      "message": "Можеби не ќе мораш да чекаш"
+   },
+   "crowdBypassedIgnore": {
+      "message": "Дали тоа не беше точно?"
+   },
+   "crowdBypassedInfo": {
+      "message": "Други корисници веќе имаат чекано и кажаја дека носи на следниот линк %"
+   },
+   "crowdBypassedOptions": {
+      "message": "Дали сакаш ова веднаш да се отвори во ново јазиче (Tab) одма или за x секунди."
+   },
+   "crowdBypassedTimer": {
+      "message": "Ова ќе биде отворено во ново јазиче (Tab) за % секунди"
+   },
+   "crowdBypassedTimerSingular": {
+      "message": "Ова ќе биде отворено во ново јазиче (Tab) за 1 секунда"
+   },
+   "crowdCloseTimer": {
+      "message": "Јазичето ќе се затвори за % секунди."
+   },
+   "crowdCloseTimerSingular": {
+      "message": "Јазичето ќе се затвори за 1 секунда."
+   },
+   "crowdDisabled": {
+      "message": "Оваа страна е заобиколена со користење на crowd заобиколување, кое го имате исклучено во поставките."
+   },
+   "crowdWait": {
+      "message": "За жал, ти си првиот кој го сретна овој линк, но одкако ќе почекаш, други корисници (вклучувајки и тебе) во иднина не ќе мораат."
+   },
+   "definitionsVersion": {
+      "message": "Верзија на дефиниции"
+   },
+   "faq": {
+      "message": "Често Поставени Прашања (ЧПП)"
+   },
+   "firstrunNoScript": {
+      "message": "Но, изгледа дека користите NoScript или нешто слично, која ја попречува работата на FastForward."
+   },
+   "firstrunTitle": {
+      "message": "Ви благодарам што го инсталиравте FastForward!"
+   },
+   "infoFileHoster": {
+      "message": "За жал, серверот ќе се погрижи да почекаш пред да можеш да го спуштиш фајлот."
+   },
+   "infoOutdated": {
+      "message": "Оваа страна е заобиколена со користење на понова страна од FastForward."
+   },
+   "options": {
+      "message": "Подесувања"
+   },
+   "optionsBlockIPLoggers": {
+      "message": "Блокирај ги IP Логерите ако неможат да се заобиколат."
+   },
+   "optionsCrowdAutoClose": {
+      "message": "Исклули го јазичето (Tab) кое ја содржи crowd-sourced дестинацијата после % секунда(и) од отварање"
+   },
+   "optionsCrowdAutoOpen": {
+      "message": "Отвори ја crowd-sourced дестинација во ново јазиче (Tab) после % секунда(и)"
+   },
+   "optionsCrowdBypass": {
+      "message": "Земи ги и дади ги дестинациите на скратувачите кои неможат да се заобиколат."
+   },
+   "optionsEnabled": {
+      "message": "Вклучи заобиколување на страни"
+   },
+   "optionsInstantNavigationTrackers": {
+      "message": "Однесиме на дестинацијата на тракерот наеднаш"
+   },
+   "optionsLink": {
+      "message": "Смени ги подесувањата на FastForward"
+   },
+   "optionsNavigationDelay": {
+      "message": "Однесиме на дестинацијата после % секунда(и)"
+   },
+   "optionsTrackerBypass": {
+      "message": "Заобиколи тракери (како bit.ly и t.co) со користење на Apimon.de"
+   },
+   "optionsUserscripts": {
+      "message": "Твои Бајпаси"
+   },
+   "optionsUserscriptsDescription": {
+      "message": "Ова е напредна функција која е направена за програмери да направат своја скрипта за да заобиколуваат страни. Кога тие скрипти ќе се совршат, тогаш ќе можат да се пратена на ГитХуб (GitHub) за да се додадени во FastForward, за да се достапни за сите."
+   },
+   "privacyPolicy": {
+      "message": "Правила и Условите"
+   },
+   "support": {
+      "message": "Помогни на FastForward"
+   },
+   "update": {
+      "message": "Провери за нова верзија"
+   },
+   "updateNo": {
+      "message": "Дефинициите се во најнова верзија."
+   },
+   "updateYes": {
+      "message": "Успешно обновување"
+   },
+   "updating": {
+      "message": "Обновување"
+   },
+   "version": {
+      "message": "Верзија"
+   }
+}

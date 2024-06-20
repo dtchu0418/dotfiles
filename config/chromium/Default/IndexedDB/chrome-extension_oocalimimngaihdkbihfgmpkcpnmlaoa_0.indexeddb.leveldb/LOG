@@ -1,0 +1,14 @@
+2024/06/11-15:11:38.864 10c2 Reusing MANIFEST /home/noge/.config/chromium/Default/IndexedDB/chrome-extension_oocalimimngaihdkbihfgmpkcpnmlaoa_0.indexeddb.leveldb/MANIFEST-000001
+2024/06/11-15:11:38.866 10c2 Recovering log #1044
+2024/06/11-15:11:38.866 10c2 Reusing old log /home/noge/.config/chromium/Default/IndexedDB/chrome-extension_oocalimimngaihdkbihfgmpkcpnmlaoa_0.indexeddb.leveldb/001044.log 
+2024/06/11-15:11:38.867 10c2 Delete type=2 #1042
+2024/06/11-15:11:38.904 109c Level-0 table #1049: started
+2024/06/11-15:11:38.911 109c Level-0 table #1049: 986 bytes OK
+2024/06/11-15:11:38.921 109c Delete type=0 #1044
+2024/06/11-15:11:38.921 109c Manual compaction at level-0 from ' \x0b\x01\x00\x00\x00' @ 72057594037927935 : 1 .. ' \x0c\x01\x00\x00\x00' @ 0 : 0; will stop at ' \x0b\x01\x00\x00\x05' @ 8875 : 1
+2024/06/11-15:11:38.922 109c Compacting 1@0 + 1@1 files
+2024/06/11-15:11:38.929 109c Generated table #1050@0: 75 keys, 1740 bytes
+2024/06/11-15:11:38.930 109c Compacted 1@0 + 1@1 files => 1740 bytes
+2024/06/11-15:11:38.939 109c compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/06/11-15:11:38.939 109c Delete type=2 #1049
+2024/06/11-15:11:38.940 1098 Manual compaction at level-0 from ' \x0b\x01\x00\x00\x05' @ 8875 : 1 .. ' \x0c\x01\x00\x00\x00' @ 0 : 0; will stop at (end)

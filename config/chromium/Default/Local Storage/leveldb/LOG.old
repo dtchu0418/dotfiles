@@ -1,0 +1,18 @@
+2024/06/15-15:19:00.453 4 Reusing MANIFEST /home/noge/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
+2024/06/15-15:19:00.464 4 Recovering log #415
+2024/06/15-15:19:00.510 4 Reusing old log /home/noge/.config/chromium/Default/Local Storage/leveldb/000415.log 
+2024/06/15-15:20:19.290 4 Level-0 table #419: started
+2024/06/15-15:20:19.308 4 Level-0 table #419: 55294 bytes OK
+2024/06/15-15:20:19.319 4 Delete type=0 #415
+2024/06/15-15:20:19.320 4 Compacting 4@0 + 1@1 files
+2024/06/15-15:20:19.349 4 Generated table #420@0: 2548 keys, 1201320 bytes
+2024/06/15-15:20:19.349 4 Compacted 4@0 + 1@1 files => 1201320 bytes
+2024/06/15-15:20:19.358 4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/06/15-15:20:19.359 4 Delete type=2 #416
+2024/06/15-15:20:19.359 4 Delete type=2 #414
+2024/06/15-15:20:19.359 4 Delete type=2 #412
+2024/06/15-15:20:19.359 4 Delete type=2 #409
+2024/06/15-15:20:19.359 4 Delete type=2 #419
+2024/06/15-15:21:27.694 4 Level-0 table #422: started
+2024/06/15-15:21:27.715 4 Level-0 table #422: 54429 bytes OK
+2024/06/15-15:21:27.728 4 Delete type=0 #418
