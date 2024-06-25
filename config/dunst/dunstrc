@@ -86,7 +86,7 @@
 
 	# Frame
 	frame_width = 3
-	frame_color = "#cba6f7"
+	frame_color = "#b4befe"
 
 	# The transparency of the window. range: [0; 100]
 	# This option will only work if a compositing windowmanager is present (e.g. xcompmgr, compiz, etc..)
@@ -183,7 +183,7 @@
 	timeout = 6
 	background = "#1e1e2e"
 	foreground = "#CDD6F4"
-	frame_color = "#cba6f7"
+	frame_color = "#b4befe"
 	highlight = "#7ba5dd"
 
 [urgency_normal]
@@ -191,8 +191,8 @@
 	timeout = 6
 	background = "#1e1e2e"
 	foreground = "#CDD6F4"
-	frame_color = "#cba6f7"
-	highlight = "#cba6f7"
+	frame_color = "#b4befe"
+	highlight = "#b4befe"
 
 [urgency_critical]
 	script = ~/.config/dunst/scripts/playNotificationSound.sh
