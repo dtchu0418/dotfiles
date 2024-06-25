@@ -1,3 +1,6 @@
-2024/06/15-15:23:01.403 1889 Reusing MANIFEST /home/noge/.config/chromium/Default/Sync Data/LevelDB/MANIFEST-000001
-2024/06/15-15:23:01.404 1889 Recovering log #254
-2024/06/15-15:23:01.406 1889 Reusing old log /home/noge/.config/chromium/Default/Sync Data/LevelDB/000254.log 
+2024/06/25-16:43:27.182 b345 Reusing MANIFEST /home/noge/.config/chromium/Default/Sync Data/LevelDB/MANIFEST-000001
+2024/06/25-16:43:27.184 b345 Recovering log #280
+2024/06/25-16:43:27.185 b345 Reusing old log /home/noge/.config/chromium/Default/Sync Data/LevelDB/000280.log 
+2024/06/25-16:50:57.983 b344 Level-0 table #285: started
+2024/06/25-16:50:58.002 b344 Level-0 table #285: 117955 bytes OK
+2024/06/25-16:50:58.011 b344 Delete type=0 #280

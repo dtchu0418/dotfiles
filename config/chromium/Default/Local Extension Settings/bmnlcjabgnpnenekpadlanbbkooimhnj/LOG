@@ -1,6 +1,24 @@
-2024/06/15-15:23:01.789 1889 Reusing MANIFEST /home/noge/.config/chromium/Default/Local Extension Settings/bmnlcjabgnpnenekpadlanbbkooimhnj/MANIFEST-000001
-2024/06/15-15:23:01.790 1889 Recovering log #569
-2024/06/15-15:23:01.795 1889 Reusing old log /home/noge/.config/chromium/Default/Local Extension Settings/bmnlcjabgnpnenekpadlanbbkooimhnj/000569.log 
-2024/06/15-15:23:15.581 1889 Level-0 table #573: started
-2024/06/15-15:23:15.615 1889 Level-0 table #573: 1658330 bytes OK
-2024/06/15-15:23:15.625 1889 Delete type=0 #569
+2024/06/25-16:43:27.961 b347 Reusing MANIFEST /home/noge/.config/chromium/Default/Local Extension Settings/bmnlcjabgnpnenekpadlanbbkooimhnj/MANIFEST-000001
+2024/06/25-16:43:27.962 b347 Recovering log #676
+2024/06/25-16:43:27.966 b347 Reusing old log /home/noge/.config/chromium/Default/Local Extension Settings/bmnlcjabgnpnenekpadlanbbkooimhnj/000676.log 
+2024/06/25-16:45:35.677 b344 Level-0 table #680: started
+2024/06/25-16:45:35.739 b344 Level-0 table #680: 3317271 bytes OK
+2024/06/25-16:45:35.749 b344 Delete type=0 #676
+2024/06/25-16:45:35.752 b344 Compacting 4@0 + 1@1 files
+2024/06/25-16:45:35.809 b344 Generated table #681@0: 14 keys, 2523182 bytes
+2024/06/25-16:45:35.810 b344 Compacted 4@0 + 1@1 files => 2523182 bytes
+2024/06/25-16:45:35.819 b344 compacted to: files[ 0 2 2 0 0 0 0 ]
+2024/06/25-16:45:35.820 b344 Delete type=2 #673
+2024/06/25-16:45:35.820 b344 Delete type=2 #675
+2024/06/25-16:45:35.820 b344 Delete type=2 #670
+2024/06/25-16:45:35.820 b344 Delete type=2 #677
+2024/06/25-16:45:35.820 b344 Delete type=2 #680
+2024/06/25-16:49:08.045 b345 Level-0 table #683: started
+2024/06/25-16:49:08.079 b345 Level-0 table #683: 1562131 bytes OK
+2024/06/25-16:49:08.088 b345 Delete type=0 #679
+2024/06/25-16:51:10.086 b345 Level-0 table #685: started
+2024/06/25-16:51:10.122 b345 Level-0 table #685: 1561846 bytes OK
+2024/06/25-16:51:10.132 b345 Delete type=0 #682
+2024/06/25-16:53:13.538 b345 Level-0 table #687: started
+2024/06/25-16:53:13.572 b345 Level-0 table #687: 1561647 bytes OK
+2024/06/25-16:53:13.581 b345 Delete type=0 #684
