@@ -50,7 +50,7 @@ starship
 swappy
 swaybg
 swayidle
-swaylock-fancy-git r226.0b93740-1
+swaylock-fancy-git 
 ttf-0xproto-nerd
 ttf-3270-nerd
 ttf-agave-nerd
