@@ -192,7 +192,7 @@ window#waybar.hidden {
 }
 
 #battery {
-  color: @green;
+  color: @text;
   font-weight: bold; 
   border-radius: 0px 8px 8px 0px;
   padding-right: 8px;
@@ -309,7 +309,7 @@ label:focus {
 }
 
 #custom-spotify {
-  color: #abb2bf;
+  color: @text;
 }
 
 #custom-weather {

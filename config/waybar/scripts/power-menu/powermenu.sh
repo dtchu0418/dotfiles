@@ -93,7 +93,7 @@ case ${chosen} in
 		elif [[ -x '/usr/bin/i3lock' ]]; then
 			i3lock
 		elif [[ -x '/usr/bin/Hyprland' ]]; then
-		  swaylock-fancy	
+		  swaylock-fancy -f JetBrains-Mono-Bold-Nerd-Font-Complete	
 		fi
         ;;
     $suspend)
