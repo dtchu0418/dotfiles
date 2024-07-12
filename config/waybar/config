@@ -13,9 +13,9 @@
       "exec": "python3 ~/.config/waybar/scripts/mediaplayer.py --player spotify",
       "format": "{}  ",
       "return-type": "json",
-      "on-click": "playerctl play-pause",
-      "on-double-click-right": "playerctl next",
-      "on-scroll-down": "playerctl previous",
+      "on-click": "playerctl -p spotify play-pause",
+      "on-double-click-right": "playerctl -p spotify next",
+      "on-scroll-down": "playerctl -p spotify previous",
     }, 
     "power-profiles-daemon": {
       "format": "{icon}",
@@ -87,7 +87,10 @@
         "format-icons": {
             "default": ["", "", "墳"]
         },
-        "on-click": "pavucontrol &"
+        "on-click": "pavucontrol &",
+        "on-scroll-up": "~/.config/hypr/scripts/volume up",
+        "on-scroll-down": "~/.config/hypr/scripts/volume down",
+        "on-click-middle": "~/.config/hypr/scripts/volume mute",
     },
 
     "battery": {
@@ -102,7 +105,7 @@
       "format": "<span font_size='16.5pt'>{icon}</span> {capacity}%",
       "format-warning": "<span font_size='16.5pt'>{icon}</span> {capacity}%",
       "format-critical": "<span font_size='16.5pt'>{icon}</span> {capacity}%",
-      "format-charging": "<span font-family='Font Awesome 6 Free'></span>",
+      "format-charging": "<span font_size='16.5pt' color='#a6e3a1'>{icon}</span> <span color='#a6e3a1'>{capacity}%</span>",
       "format-plugged": "ﮣ", 
 
       "format-alt": "{icon} {time}",
@@ -116,7 +119,7 @@
     },   
    "custom/lock": {
        "tooltip" : false,
-       "on-click": "swaylock",
+       "on-click": "swaylock-fancy -f JetBrains-Mono-Bold-Nerd-Font-Complete",
        "format" : "",
     },
     "custom/power-menu": {

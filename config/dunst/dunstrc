@@ -99,6 +99,7 @@
 
 	# Which monitor should the notifications be displayed on.
 	monitor = 0
+    follow = keyboard
 
 	# Display notification on focused monitor. Possible modes are:
 	# mouse: follow mouse pointer

@@ -55,10 +55,10 @@ run_cmd() {
 		if [[ $1 == '--shutdown' ]]; then
 			systemctl poweroff
 		elif [[ $1 == '--reboot' ]]; then
-			systemctl reboot
+			reboot
 		elif [[ $1 == '--suspend' ]]; then
-			mpc -q pause
-			amixer set Master mute
+            playerctl -p spotify pause
+            swaylock-fancy --daemonize -f JetBrains-Mono-Bold-Nerd-Font-Complete
 			systemctl suspend
 		elif [[ $1 == '--logout' ]]; then
 			if [[ "$DESKTOP_SESSION" == 'openbox' ]]; then

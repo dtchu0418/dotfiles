@@ -62,8 +62,11 @@ weather = requests.get("https://wttr.in/?format=j1").json()
 
 
 def format_time(time):
-    return time.replace("00", "").zfill(2)
+    time = time.zfill(4)
+    return datetime.strptime((time[:2] + ":" + time[2:]), '%H:%M').strftime('%I %p')
 
+def format_time_compare(time):
+    return time.replace("00", "").zfill(2)
 
 def format_temp(temp):
     return (hour['FeelsLikeF']+"°").ljust(3)
@@ -106,7 +109,7 @@ for i, day in enumerate(weather['weather']):
     data['tooltip'] += f"🌅 {day['astronomy'][0]['sunrise']} 🌇 {day['astronomy'][0]['sunset']}\n"
     for hour in day['hourly']:
         if i == 0:
-            if int(format_time(hour['time'])) < datetime.now().hour-2:
+            if int(format_time_compare(hour['time'])) < datetime.now().hour-2:
                 continue
         data['tooltip'] += f"{format_time(hour['time'])} {WEATHER_CODES[hour['weatherCode']]} {format_temp(hour['FeelsLikeF'])} {hour['weatherDesc'][0]['value']}, {format_chances(hour)}\n"
 
