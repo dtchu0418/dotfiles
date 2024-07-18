@@ -58,7 +58,6 @@ run_cmd() {
 			reboot
 		elif [[ $1 == '--suspend' ]]; then
             playerctl -p spotify pause
-            swaylock-fancy --daemonize -f JetBrains-Mono-Bold-Nerd-Font-Complete
 			systemctl suspend
 		elif [[ $1 == '--logout' ]]; then
 			if [[ "$DESKTOP_SESSION" == 'openbox' ]]; then
@@ -93,7 +92,7 @@ case ${chosen} in
 		elif [[ -x '/usr/bin/i3lock' ]]; then
 			i3lock
 		elif [[ -x '/usr/bin/Hyprland' ]]; then
-		  swaylock-fancy -f JetBrains-Mono-Bold-Nerd-Font-Complete	
+		  loginctl lock-session	
 		fi
         ;;
     $suspend)
