@@ -18,8 +18,8 @@ vim.cmd.colorscheme "catppuccin"
 
 -- bufferline
 vim.opt.termguicolors = true
-local bufferline = require("bufferline")
-bufferline.setup {
+
+require("bufferline").setup {
   options = {
     separator_style = "slant",
     offsets = {
@@ -39,7 +39,7 @@ vim.cmd([[set number]])
 -- lualine
 require('lualine').setup {
     options = {
-        theme = "catppuccin"
+        theme = "catppuccin",
     }
 }
 
@@ -81,7 +81,7 @@ local function open_nvim_tree(data)
   -- buffer is a directory
   local directory = vim.fn.isdirectory(data.file) == 1
 
-  if not real_file and not directory then-- and not no_name then
+  if not directory then-- and not no_name then
     return
   end
 
@@ -90,6 +90,19 @@ local function open_nvim_tree(data)
 end
 
 vim.api.nvim_create_autocmd({ "VimEnter" }, { callback = open_nvim_tree })
+
+-- toggle nvim-tree
+local function customNvimTreeToggle()
+  local api= require("nvim-tree.api")
+
+  -- change to directory
+  local global_cwd = vim.fn.getcwd(-1, -1)
+  api.tree.change_root(global_cwd)
+
+  -- toggle tree
+  api.tree.toggle({ focus = true, find_file = true})
+end
+vim.keymap.set('n', '<leader>e', customNvimTreeToggle)
 
 -- auto close for nvim-tree
 local function tab_win_closed(winnr)
@@ -164,5 +177,14 @@ require('nvim-ts-autotag').setup({
     ["html"] = {
       enable_close = false
     }
+  }
+})
+
+-- nvim-cmp
+local cmp = require('cmp')
+cmp.setup({
+  mapping = {
+    ['<Tab>'] = cmp.mapping.select_next_item({behavior = 'select'}),
+    ['<CR>'] = cmp.mapping.confirm({select = false})
   }
 })
