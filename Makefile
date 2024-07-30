@@ -10,11 +10,11 @@ installPackages:
 
 # Copy .local files
 copyLocal:
-	cp -r ./local/ ~/.local/
+	cp -r ./local/. ~/.local/
 
 # copy greetd
 copyGreetd:
-	cp -r ./greetd /etc/greetd/
+	cp -r ./greetd/. /etc/greetd/
 
 # copy grub files
 copyGrub:
