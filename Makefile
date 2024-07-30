@@ -6,7 +6,7 @@ packages:
 
 # Install pacman packages
 installPackages:
-	pacman -S - < packages.
+	yay -S - < packages.*
 
 # Copy .local files
 copyLocal:
@@ -22,8 +22,7 @@ copyGrub:
 	cp -r ./grub/themes /usr/share/grub/themes
 
 # Install all
-installAll:
-	$(MAKE) packages
+copyAll:
 	$(MAKE) installPackages
 	$(MAKE) copyLocal
 	$(MAKE) copyGreetd
