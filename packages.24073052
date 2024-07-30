@@ -13,6 +13,8 @@ alsa-ucm-conf
 alsa-utils
 aom
 appstream
+aquamarine-git
+aquamarine-git-debug
 archlinux-keyring
 ardour
 argon2
@@ -58,6 +60,7 @@ chromium
 cmake
 composefs
 coreutils
+cpio
 cppdap
 cryptsetup
 curl
@@ -81,8 +84,6 @@ e2fsprogs
 easyeffects
 efibootmgr
 efivar
-egl-wayland
-eglexternalplatform
 electron31
 ell
 exo
@@ -137,11 +138,10 @@ graphite
 greetd
 greetd-agreety
 grep
-grim
-grimblast-git
 groff
 grub
 gsettings-desktop-schemas
+gsettings-system-schemas
 gsl
 gsm
 gssdp
@@ -187,6 +187,8 @@ icu
 ijs
 imath
 imlib2
+intel-gmmlib
+intel-media-driver
 iproute2
 iptables
 iputils
@@ -198,7 +200,6 @@ java-runtime-common
 jbig2dec
 jbigkit
 jdk17-openjdk
-jq
 json-c
 json-glib
 jsoncpp
@@ -419,8 +420,10 @@ libunistring
 libunwind
 libusb
 libusbmuxd
+libutf8proc
 libuv
 libva
+libva-utils
 libvdpau
 libverto
 libvorbis
@@ -471,6 +474,7 @@ licenses
 light
 light-debug
 lilv
+linux
 linux-api-headers
 linux-firmware
 linux-firmware-bnx2x
@@ -479,8 +483,6 @@ linux-firmware-mellanox
 linux-firmware-nfp
 linux-firmware-qlogic
 linux-firmware-whence
-linux-lts
-linux-lts-headers
 llvm-libs
 lm_sensors
 lmdb
@@ -503,6 +505,7 @@ mbedtls2
 md4c
 mda.lv2
 mesa
+meson
 minizip
 mkinitcpio
 mkinitcpio-busybox
@@ -519,6 +522,7 @@ ncurses
 neovim
 nettle
 networkmanager
+ninja
 node-gyp
 nodejs
 nodejs-nopt
@@ -529,7 +533,6 @@ nspr
 nss
 ocl-icd
 onetbb
-oniguruma
 openal
 opencore-amr
 openexr
@@ -555,7 +558,6 @@ p11-kit
 pacman
 pacman-contrib
 pacman-mirrorlist
-pahole
 pam
 pambase
 pamixer
@@ -609,6 +611,7 @@ python-pip
 python-pycparser
 python-pynvim
 python-requests
+python-tqdm
 python-urllib3
 python-wheel
 qt5-base
@@ -642,7 +645,6 @@ shaderc
 shadow
 shared-mime-info
 slang
-slurp
 snappy
 sndio
 sof-firmware
