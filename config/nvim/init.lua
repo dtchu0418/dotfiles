@@ -3,21 +3,26 @@ vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
 
 -- Extra settings
-vim.o.tabstop = 4 -- A TAB character looks like 4 spaces
-vim.o.expandtab = true -- Pressing the TAB key will insert spaces instead of a TAB character
-vim.o.softtabstop = 4 -- Number of spaces inserted instead of a TAB character
-vim.o.shiftwidth = 4 -- Number of spaces inserted when indenting
 vim.opt.clipboard = "unnamedplus" -- clipboard manager
 vim.g.mapleader = "<Space>"
+vim.opt.breakindent = true
+vim.opt.mouse = "" -- disable mouse
+vim.wo.relativenumber = true
 
 -- Lazy.nvim
 require("config.lazy")
 
 -- Colorscheme
+require("catppuccin").setup({
+        flavour = "frappe",
+})
 vim.cmd.colorscheme "catppuccin"
 
 -- bufferline
 vim.opt.termguicolors = true
+
+-- indent-blankline
+require("ibl").setup()
 
 require("bufferline").setup {
   options = {
@@ -45,7 +50,6 @@ require('lualine').setup {
 
 -- vim-notify
 vim.opt.termguicolors = true
-vim.notify = require("notify")
 
 -- Bind CTRL + hjkl to change split buffer
 vim.cmd([[
@@ -188,3 +192,47 @@ cmp.setup({
     ['<CR>'] = cmp.mapping.confirm({select = false})
   }
 })
+
+-- settings for tabs
+vim.o.tabstop = 2 -- A TAB character looks like 4 spaces
+vim.o.expandtab = true -- Pressing the TAB key will insert spaces instead of a TAB character
+vim.o.softtabstop = 2 -- Number of spaces inserted instead of a TAB character
+vim.o.shiftwidth = 2 -- Number of spaces inserted when indenting
+
+-- vimtex
+vim.g.vimtex_view_method = 'zathura'
+vim.g.vimtex_quickfix_open_on_warning = 0
+
+-- cmp-vimtex
+require('cmp').setup({
+  sources = {
+    { name = 'vimtex', },
+  },
+})
+
+-- luasnip
+require("luasnip.loaders.from_vscode").lazy_load()
+local cmp = require('cmp')
+local cmp_action = require('lsp-zero').cmp_action()
+local cmp_format = require('lsp-zero').cmp_format({details = true})
+
+require('luasnip.loaders.from_vscode').lazy_load()
+cmp.setup({
+  sources = {
+    {name = 'nvim_lsp'},
+    {name = 'luasnip'},
+  },
+  mapping = cmp.mapping.preset.insert({
+    ['<C-f>'] = cmp_action.luasnip_jump_forward(),
+    ['<C-b>'] = cmp_action.luasnip_jump_backward(),
+    ['<CR>'] = cmp.mapping.confirm({select = false}),
+  }),
+  snippet = {
+    expand = function(args)
+      require('luasnip').lsp_expand(args.body)
+    end,
+  },
+  --- (Optional) Show source name in completion menu
+  formatting = cmp_format,
+})
+require("luasnip.loaders.from_lua").load({paths="~/snippets"})
