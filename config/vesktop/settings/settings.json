@@ -11,16 +11,10 @@
     "disableMinSize": false,
     "winNativeTitleBar": false,
     "plugins": {
-        "BadgeAPI": {
-            "enabled": true
-        },
         "ChatInputButtonAPI": {
             "enabled": false
         },
         "CommandsAPI": {
-            "enabled": true
-        },
-        "ContextMenuAPI": {
             "enabled": true
         },
         "MemberListDecoratorsAPI": {
@@ -38,24 +32,19 @@
         "MessagePopoverAPI": {
             "enabled": false
         },
-        "NoticesAPI": {
-            "enabled": true
+        "MessageUpdaterAPI": {
+            "enabled": false
         },
         "ServerListAPI": {
             "enabled": false
         },
-        "NoTrack": {
-            "enabled": true,
-            "disableAnalytics": true
-        },
-        "Settings": {
-            "enabled": true,
-            "settingsLocation": "aboveNitro"
-        },
-        "SupportHelper": {
+        "UserSettingsAPI": {
             "enabled": true
         },
         "AlwaysAnimate": {
+            "enabled": false
+        },
+        "AlwaysExpandRoles": {
             "enabled": false
         },
         "AlwaysTrust": {
@@ -64,10 +53,10 @@
         "AnonymiseFileNames": {
             "enabled": false
         },
-        "WebRichPresence (arRPC)": {
+        "AppleMusicRichPresence": {
             "enabled": false
         },
-        "AutomodContext": {
+        "WebRichPresence (arRPC)": {
             "enabled": false
         },
         "BANger": {
@@ -118,7 +107,16 @@
         "ColorSighted": {
             "enabled": false
         },
+        "ConsoleJanitor": {
+            "enabled": false
+        },
         "ConsoleShortcuts": {
+            "enabled": false
+        },
+        "CopyEmojiMarkdown": {
+            "enabled": false
+        },
+        "CopyFileContents": {
             "enabled": false
         },
         "CopyUserURLs": {
@@ -158,18 +156,7 @@
             "enabled": false
         },
         "FakeNitro": {
-            "enabled": true,
-            "enableEmojiBypass": true,
-            "emojiSize": 48,
-            "transformEmojis": true,
-            "enableStickerBypass": true,
-            "stickerSize": 160,
-            "transformStickers": true,
-            "transformCompoundSentence": false,
-            "enableStreamQualityBypass": true,
-            "useHyperLinks": true,
-            "hyperLinkText": "{{NAME}}",
-            "disableEmbedPermissionCheck": false
+            "enabled": true
         },
         "FakeProfileThemes": {
             "enabled": false
@@ -237,10 +224,10 @@
         "LoadingQuotes": {
             "enabled": false
         },
-        "MaskedLinkPaste": {
+        "MemberCount": {
             "enabled": false
         },
-        "MemberCount": {
+        "MentionAvatars": {
             "enabled": false
         },
         "MessageClickActions": {
@@ -288,7 +275,13 @@
         "NoF1": {
             "enabled": false
         },
+        "NoMaskedUrlPaste": {
+            "enabled": false
+        },
         "NoMosaic": {
+            "enabled": false
+        },
+        "NoOnboardingDelay": {
             "enabled": false
         },
         "NoPendingCount": {
@@ -387,9 +380,6 @@
         "ReplyTimestamp": {
             "enabled": false
         },
-        "ResurrectHome": {
-            "enabled": false
-        },
         "RevealAllSpoilers": {
             "enabled": false
         },
@@ -402,9 +392,6 @@
         "RoleColorEverywhere": {
             "enabled": false
         },
-        "SearchReply": {
-            "enabled": false
-        },
         "SecretRingToneEnabler": {
             "enabled": false
         },
@@ -412,6 +399,9 @@
             "enabled": false
         },
         "SendTimestamps": {
+            "enabled": false
+        },
+        "ServerInfo": {
             "enabled": false
         },
         "ServerListIndicators": {
@@ -459,6 +449,9 @@
         "StartupTimings": {
             "enabled": false
         },
+        "StickerPaste": {
+            "enabled": false
+        },
         "StreamerModeOnStream": {
             "enabled": false
         },
@@ -490,9 +483,6 @@
             "enabled": false
         },
         "UnsuppressEmbeds": {
-            "enabled": false
-        },
-        "UrbanDictionary": {
             "enabled": false
         },
         "UserVoiceShow": {
@@ -528,12 +518,8 @@
         "VoiceMessages": {
             "enabled": false
         },
-        "WatchTogetherAdblock": {
+        "VolumeBooster": {
             "enabled": false
-        },
-        "WebContextMenus": {
-            "enabled": true,
-            "addBack": true
         },
         "WebKeybinds": {
             "enabled": true
@@ -544,20 +530,29 @@
         "WhoReacted": {
             "enabled": false
         },
-        "Wikisearch": {
-            "enabled": false
-        },
         "XSOverlay": {
             "enabled": false
         },
-        "ServerInfo": {
+        "YoutubeAdblock": {
             "enabled": false
         },
-        "MessageUpdaterAPI": {
-            "enabled": false
+        "NoTrack": {
+            "enabled": true,
+            "disableAnalytics": true
         },
-        "UserSettingsAPI": {
+        "WebContextMenus": {
+            "enabled": true,
+            "addBack": true
+        },
+        "Settings": {
+            "enabled": true,
+            "settingsLocation": "aboveNitro"
+        },
+        "SupportHelper": {
             "enabled": true
+        },
+        "FullSearchContext": {
+            "enabled": false
         }
     },
     "notifications": {
@@ -570,6 +565,6 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1719355653232
+        "settingsSyncVersion": 1727129459733
     }
 }

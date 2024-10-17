@@ -1,14 +1,42 @@
 {
     "reload_style_on_change": true,
-    "height": 40, // Waybar height (to be removed for auto height)
+    "height": 20, // Waybar height (to be removed for auto height)
     "layer": "top", // Waybar at top layer
-    "modules-left": ["custom/launcher", "cpu", "memory", "custom/weather", "hyprland/workspaces"],
-    "modules-right": ["tray", "bluetooth", "network", "pulseaudio",  "backlight", "power-profiles-daemon", "battery", "custom/lock", "clock", "custom/power-menu"],
-    "modules-center": ["custom/spotify"],
+    "mode": "dock",
+    "exclusive": "true",
+
+    // Positions
+    "modules-left": [
+      "custom/launcher",
+      "cpu",
+      "memory", 
+      "custom/weather", 
+      "hyprland/workspaces"
+    ],
+
+    "modules-right": [
+      "tray", 
+      "bluetooth", 
+      "network", 
+      "pulseaudio",  
+      "backlight", 
+      "power-profiles-daemon", 
+      "battery", 
+      "custom/lock", 
+      "clock", 
+      "custom/power-menu"
+    ],
+
+    "modules-center": [
+      "custom/spotify"
+    ],
+
+    // Modules
     "bluetooth": {
         "on-click": "bash ~/.config/waybar/scripts/rofi-bluetooth.sh",
         "format": " {status}",
     },
+
     "custom/spotify": {
       "exec": "python3 ~/.config/waybar/scripts/mediaplayer.py --player spotify",
       "format": "{}  ",
@@ -16,7 +44,10 @@
       "on-click": "playerctl -p spotify play-pause",
       "on-double-click-right": "playerctl -p spotify next",
       "on-scroll-down": "playerctl -p spotify previous",
+      "min-length": 5,
+      "max-length:": 5,
     }, 
+
     "power-profiles-daemon": {
       "format": "{icon}",
       "tooltip-format": "Power profile: {profile}\nDriver: {driver}",
@@ -28,6 +59,7 @@
         "power-saver": "<span color='#a6e3a1'></span>"
       }
     },
+
     "hyprland/workspaces": {
       "format": "{icon}",
       "on-click": "activate",
@@ -40,12 +72,15 @@
              "*": 5, // 5 workspaces by default on every monitor
        }
     },
+
     "hyprland/window": {
         "format": "{}"
     },
+
     "tray": {
         "spacing": 10
     },
+
     "clock": {
         "format": "{:%I:%M %p}",
         "format-alt": "{:%b %d %Y}",
@@ -58,12 +93,14 @@
       "max-length": 10,
       "on-click": "",
     },
+
     "memory": {
         "interval": 30,
         "format": " {}%",
         "format-alt":" {used:0.1f}GB",
         "max-length": 10,
     },
+
     "backlight": {
         "device": "eDP-1",
         "format": "{icon}",
@@ -71,6 +108,7 @@
         "format-icons": ["󱩎 ", "󱩏 ", "󱩐 ", "󱩑 ", "󱩒 ", "󱩓 ", "󱩔 ", "󱩕 ", "󱩖 ", "󰛨 "],
 
     },
+
     "network": {
         /* "format-wifi": "直", */
         "format-wifi": "{icon}",
@@ -112,20 +150,24 @@
       "format-full": "ﮣ", 
       "format-icons": ["󱊡", "󱊢", "󱊣"]
     },
+
     "custom/weather": {
       "exec": "python3 ~/.config/waybar/scripts/weather.py",
       "restart-interval": 300,
       "return-type": "json",
     },   
+
    "custom/lock": {
        "tooltip" : false,
        "on-click": "swaylock-fancy -f JetBrains-Mono-Bold-Nerd-Font-Complete",
        "format" : "",
     },
+
     "custom/power-menu": {
         "format": " ⏻ ",
         "on-click": "bash ~/.config/waybar/scripts/power-menu/powermenu.sh &",
     }, 
+
     "custom/launcher": {
         "format": "",
         "on-click": "rofi -show drun &",

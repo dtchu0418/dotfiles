@@ -1,0 +1,15 @@
+2024/10/16-20:07:11.118 9c3 Reusing MANIFEST /home/noge/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
+2024/10/16-20:07:11.122 9c3 Recovering log #265
+2024/10/16-20:07:11.122 9c3 Reusing old log /home/noge/.config/vesktop/sessionData/Local Storage/leveldb/000265.log 
+2024/10/16-20:08:11.370 9dc Level-0 table #269: started
+2024/10/16-20:08:11.394 9dc Level-0 table #269: 149460 bytes OK
+2024/10/16-20:08:11.408 9dc Delete type=0 #265
+2024/10/16-20:08:11.409 9dc Compacting 4@0 + 1@1 files
+2024/10/16-20:08:11.424 9dc Generated table #270@0: 66 keys, 147692 bytes
+2024/10/16-20:08:11.425 9dc Compacted 4@0 + 1@1 files => 147692 bytes
+2024/10/16-20:08:11.444 9dc compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/10/16-20:08:11.445 9dc Delete type=2 #259
+2024/10/16-20:08:11.445 9dc Delete type=2 #266
+2024/10/16-20:08:11.445 9dc Delete type=2 #269
+2024/10/16-20:08:11.446 9dc Delete type=2 #261
+2024/10/16-20:08:11.446 9dc Delete type=2 #264
