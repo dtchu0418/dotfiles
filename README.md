@@ -1,9 +1,14 @@
 # dotfiles
 Some catppuccin based dotfiles for my Hyprland + Arch installation
 
-Includes Pytho and Bash scripts for waybar, Dunst, Rofi, and more
+Includes Python and Bash scripts for waybar, Dunst, Rofi, and more
 
-Dependencies
-```
+Uses Greetd autologin with Hyprlock as the lockscreen.
 
-```
+The makefile will install all needed packages and fonts automatically :)
+
+Build instructions
+1. Copy this repo to your preferred location
+2. Run `make installPackages` to install dependencies
+3. Copy the config file to your ~/.config folder on linux
+4. *Optional* If you want to copy over greetd config, grub themes, and local desktop files, run `make copyAll`. Otherwise you can run make with `copyLocal copyGreetd copyGrub` separately.
