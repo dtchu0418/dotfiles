@@ -1,6 +1,0 @@
-2024/09/18-21:37:18.817 b652 Creating DB /home/noge/.config/vesktop/sessionData/WebStorage/2/IndexedDB/indexeddb.leveldb since it was missing.
-2024/09/18-21:37:18.836 b652 Reusing MANIFEST /home/noge/.config/vesktop/sessionData/WebStorage/2/IndexedDB/indexeddb.leveldb/MANIFEST-000001
-2024/09/18-21:37:18.863 b654 Level-0 table #5: started
-2024/09/18-21:37:18.870 b654 Level-0 table #5: 712 bytes OK
-2024/09/18-21:37:18.883 b654 Delete type=0 #3
-2024/09/18-21:37:18.883 b651 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

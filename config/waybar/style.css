@@ -214,6 +214,7 @@ window#waybar.hidden {
   padding-left: 8px;
   font-size: 20px;
   font-family: Iosevka Nerd Font;
+  min-width: 60px;
 }
 
 #battery.critical,

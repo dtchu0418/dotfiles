@@ -8,21 +8,18 @@
     // Positions
     "modules-left": [
       "custom/launcher",
-      "cpu",
-      "memory", 
       "custom/weather", 
-      "hyprland/workspaces"
+      "hyprland/workspaces",
+      "tray",
     ],
 
     "modules-right": [
-      "tray", 
       "bluetooth", 
       "network", 
       "pulseaudio",  
       "backlight", 
       "power-profiles-daemon", 
       "battery", 
-      "custom/lock", 
       "clock", 
       "custom/power-menu"
     ],
@@ -55,7 +52,7 @@
       "format-icons": {
         "default": "<span color='#f9e2af'></span>",
         "performance": "<span color='#f9e2af'></span>",
-        "balanced": "<span color='#cdd6f4'></span>",
+        "balanced": "<span color='#babbf1'></span>",
         "power-saver": "<span color='#a6e3a1'></span>"
       }
     },
@@ -82,7 +79,7 @@
     },
 
     "clock": {
-        "format": "{:%I:%M %p}",
+        "format": "{:%b %d %I:%M %p}",
         "format-alt": "{:%b %d %Y}",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
     },

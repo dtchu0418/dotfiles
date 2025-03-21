@@ -236,3 +236,4 @@ cmp.setup({
   formatting = cmp_format,
 })
 require("luasnip.loaders.from_lua").load({paths="~/snippets"})
+
